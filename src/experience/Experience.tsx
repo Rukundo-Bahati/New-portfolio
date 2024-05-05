@@ -55,7 +55,7 @@ const Experience = () => {
           </Testimonial>
           <Testimonial bg="#0ef">
             <img src={tailwind} style={{ width: "50%" }} />
-            <h1>Tailwind CSS</h1>
+            <h1>Tailwind</h1>
           </Testimonial>
         </div>
         <div>

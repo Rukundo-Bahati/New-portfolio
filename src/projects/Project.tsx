@@ -1,9 +1,7 @@
-import React from "react";
-
 const Project = () => {
   return (
     <section className="portfolio" id="portfolio">
-      <h2 className="heading"  style={{ textAlign: "center", fontSize: "3rem" }}>
+      <h2 className="heading" style={{ textAlign: "center", fontSize: "3rem" }}>
         Latest <span>Projects</span>
       </h2>
       <div className="portfolio-container">

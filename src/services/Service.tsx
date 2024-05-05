@@ -1,5 +1,3 @@
-import React from "react";
-
 const Service = () => {
   return (
     <section className="services" id="services">
@@ -25,7 +23,7 @@ const Service = () => {
           <h3>Backend Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            exercitationem maxime ipsum accusamus. 
+            exercitationem maxime ipsum accusamus.
           </p>
           <a href="../resume/RESUME.pdf" className="btn">
             Read More
@@ -36,7 +34,7 @@ const Service = () => {
           <h3>Web Design (UI/UX)</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            exercitationem maxime ipsum accusamus. 
+            exercitationem maxime ipsum accusamus.
           </p>
           <a href="../resume/RESUME.pdf" className="btn">
             Read More

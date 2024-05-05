@@ -9,12 +9,12 @@ const About = () => {
         className="about"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(2,1fr)",
+          gridTemplateColumns: "repeat(2, 1fr)",
           gap: "0",
           fontSize: "1.7rem",
         }}
       >
-        <div>
+        <div style={{ marginTop: "2rem" }}>
           <div style={{ position: "relative" }}>
             <img
               src={me}
@@ -28,12 +28,25 @@ const About = () => {
             />
             <div
               className="info"
-              style={{ position: "absolute", top: "1rem", right: "17rem" }}
+              style={{
+                position: "absolute",
+                top: "1rem",
+                right: "17rem",
+                lineHeight: "1.36",
+              }}
             >
-              <p>name: Rukundo Bahati</p>
-              <p>Job Role: Frontend Developer</p>
-              <p>Experience: 3+ years</p>
-              <p>Address: Kigali, Rwanda</p>
+              <p>
+                Name: <span>Rukundo Bahati</span>
+              </p>
+              <p>
+                Job Role: <span>Frontend Developer</span>
+              </p>
+              <p>
+                Experience: <span>3+ years</span>
+              </p>
+              <p>
+                Address: <span>Kigali, Rwanda</span>
+              </p>
             </div>
           </div>
           <div
@@ -58,59 +71,204 @@ const About = () => {
               }}
             >
               <div style={{ width: "100%" }}>
-                <span
-                  style={{ display: "block", fontWeight: "600", color: "#333" }}
-                >
-                  HTML
-                </span>
-                <div
-                  className="skill-bar"
-                  style={{
-                    width: "100%",
-                    height: "8px",
-                    background: "rgba(0, 0, 0, 0.1)",
-                    borderRadius: "6px",
-                  }}
-                >
+                <div style={{ marginBottom: "2rem" }}>
                   <span
-                    className="skill-per"
                     style={{
-                      position: "relative",
                       display: "block",
-                      height: "100%",
-                      width: "90%",
-                      background: "blue",
+                      fontWeight: "600",
+                      color: "#333",
+                    }}
+                  >
+                    HTML
+                  </span>
+                  <div
+                    className="skill-bar"
+                    style={{
+                      width: "100%",
+                      height: "8px",
+                      background: "rgba(0, 0, 0, 0.1)",
                       borderRadius: "6px",
+                      marginTop: "0.4rem",
                     }}
                   >
                     <span
-                      className="tooltip"
+                      className="skill-per"
                       style={{
-                        position: "absolute",
-                        right: "-14px",
-                        top: "-28px",
-
+                        position: "relative",
+                        display: "block",
+                        height: "100%",
+                        width: "90%",
+                        background: "var(--main-color)",
+                        borderRadius: "6px",
+                        animation: "progress 0.4s ease-in-out forwards",
                       }}
                     >
-                      90%
+                      <span
+                        className="tooltip"
+                        style={{
+                          position: "absolute",
+                          right: "-14px",
+                          top: "-30px",
+                          color: "#fff",
+                          padding: "2px 3px",
+                          background: "#4070fa",
+                          borderRadius: "3px",
+                        }}
+                      >
+                        90%
+                      </span>
                     </span>
+                  </div>
+                </div>
+                <div style={{ marginBottom: "2rem" }}>
+                  <span
+                    style={{
+                      display: "block",
+                      fontWeight: "600",
+                      color: "#333",
+                    }}
+                  >
+                    CSS
                   </span>
+                  <div
+                    className="skill-bar"
+                    style={{
+                      width: "100%",
+                      height: "8px",
+                      background: "rgba(0, 0, 0, 0.1)",
+                      borderRadius: "6px",
+                      marginTop: "0.4rem",
+                    }}
+                  >
+                    <span
+                      className="skill-per"
+                      style={{
+                        position: "relative",
+                        display: "block",
+                        height: "100%",
+                        width: "90%",
+                        background: "var(--main-color)",
+                        borderRadius: "6px",
+                        animation: "progress 0.4s ease-in-out forwards",
+                      }}
+                    >
+                      <span
+                        className="tooltip"
+                        style={{
+                          position: "absolute",
+                          right: "-14px",
+                          top: "-30px",
+                          color: "#fff",
+                          padding: "2px 3px",
+                          background: "#4070fa",
+                          borderRadius: "3px",
+                        }}
+                      >
+                        90%
+                      </span>
+                    </span>
+                  </div>
                 </div>
-                <span style={{}}>CSS</span>
-                <div className="skill-bar" style={{}}>
-                  <span className="skill-per"></span>
-                  <span className="tooltip">90%</span>
+                <div style={{ marginBottom: "2rem" }}>
+                  <span
+                    style={{
+                      display: "block",
+                      fontWeight: "600",
+                      color: "#333",
+                    }}
+                  >
+                    React Js
+                  </span>
+                  <div
+                    className="skill-bar"
+                    style={{
+                      width: "100%",
+                      height: "8px",
+                      background: "rgba(0, 0, 0, 0.1)",
+                      borderRadius: "6px",
+                      marginTop: "0.4rem",
+                    }}
+                  >
+                    <span
+                      className="skill-per"
+                      style={{
+                        position: "relative",
+                        display: "block",
+                        height: "100%",
+                        width: "90%",
+                        background: "var(--main-color)",
+                        borderRadius: "6px",
+                        animation: "progress 0.4s ease-in-out forwards",
+                      }}
+                    >
+                      <span
+                        className="tooltip"
+                        style={{
+                          position: "absolute",
+                          right: "-14px",
+                          top: "-30px",
+                          color: "#fff",
+                          padding: "2px 3px",
+                          background: "#4070fa",
+                          borderRadius: "3px",
+                        }}
+                      >
+                        90%
+                      </span>
+                    </span>
+                  </div>
                 </div>
-                <span style={{}}>React</span>
-                <div className="skill-bar" style={{}}>
-                  <span className="skill-per"></span>
-                  <span className="tooltip">85%</span>
+                <div style={{ marginBottom: "2rem" }}>
+                  <span
+                    style={{
+                      display: "block",
+                      fontWeight: "600",
+                      color: "#333",
+                    }}
+                  >
+                    Node Js
+                  </span>
+                  <div
+                    className="skill-bar"
+                    style={{
+                      width: "100%",
+                      height: "8px",
+                      background: "rgba(0, 0, 0, 0.1)",
+                      borderRadius: "6px",
+                      marginTop: "0.4rem",
+                    }}
+                  >
+                    <span
+                      className="skill-per"
+                      style={{
+                        position: "relative",
+                        display: "block",
+                        height: "100%",
+                        width: "90%",
+                        background: "var(--main-color)",
+                        borderRadius: "6px",
+                        animation: "progress 0.4s ease-in-out forwards",
+                      }}
+                    >
+                      <span
+                        className="tooltip"
+                        style={{
+                          position: "absolute",
+                          right: "-14px",
+                          top: "-30px",
+                          color: "#fff",
+                          padding: "2px 3px",
+                          background: "#4070fa",
+                          borderRadius: "3px",
+                        }}
+                      >
+                        90%
+                      </span>
+                    </span>
+                  </div>
                 </div>
-                <span style={{}}>Node</span>
-                <div className="skill-bar" style={{}}>
-                  <span className="skill-per"></span>
-                  <span className="tooltip">80%</span>
-                </div>
+
+                {/* Other skill sections with tooltips */}
               </div>
             </div>
           </div>
@@ -121,13 +279,12 @@ const About = () => {
               About <span>Me</span>
             </h1>
             <p style={{ margin: "1rem", lineHeight: "1.6" }}>
-              I am a Skilled Frontend Developer, UI/UX Designer with over 3
-              years of experience in the industry. My Passion lies in creating
-              captivating website designs and implementing them through both
-              frontend Development and Backend Development. I take pride in
-              staying up-to-date with current design trends and leveraging my
-              creativity to produce visually appealing and user-friendly
-              websites.
+              I am a Skilled Designer with over 3 years of experience in the
+              industry. My Passion lies in creating captivating website designs
+              and implementing them through both frontend Development and
+              Backend Development. I take pride in staying up-to-date with
+              current design trends and leveraging my creativity to produce
+              visually appealing and user-friendly websites.
             </p>
           </div>
           <div style={{ lineHeight: 1.6 }}>
@@ -138,7 +295,7 @@ const About = () => {
               Domain: <span>Software Development</span>
             </p>
             <p>
-              Domain: <span>Full stack developer</span>
+              Job: <span>Full stack developer</span>
             </p>
             <p>
               Other Skills:<span>Excel, Git, MS Word, UI/UX Design</span>
