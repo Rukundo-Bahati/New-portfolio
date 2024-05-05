@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Contact = () => {
   return (
-    <div>
-        {/* Contact section design */}
         <section className="contact" id="contact">
           <div className="contact-text">
             <h2 className="contact-heading">
@@ -81,7 +77,7 @@ const Contact = () => {
             />
           </form>
         </section>
-    </div>
+  
   )
 }
 
