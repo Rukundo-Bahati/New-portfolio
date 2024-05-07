@@ -1,5 +1,3 @@
-import React from "react";
-
 const Testimonial = ({ children, bg }) => {
   return (
     <div
@@ -13,6 +11,7 @@ const Testimonial = ({ children, bg }) => {
         boxShadow: `3px 5px 2px ${bg}`,
         borderRadius: '7px'
       }}
+      data-aos= 'fade-down-right'
     >
       {children}
     </div>

@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <section id="home" className="home">
-        <div className="home-content">
+        <div className="home-content" data-aos= 'flip-up'>
           <h3>Hello, It's Me</h3>
           <h1>RUKUNDO Bahati</h1>
           <h3>
@@ -41,22 +41,23 @@ const Home = () => {
       </section>
       <div className="profession-container">
         <div className="profession-box">
-          <div className="profession" style={{}}>
-            <i className="bx bxl-react" />
+          <div className="profession" style={{ "--i": 0 }}>
+            <i className="bx bxl-react"></i>
             <h3>Front End Developer</h3>
           </div>
-          <div className="profession" style={{}}>
-            <i className="bx bxl-nodejs" />
+          <div className="profession" style={{ "--i": 1 }}>
+            <i className="bx bxl-nodejs"></i>
             <h3>Back End Developer</h3>
           </div>
-          <div className="profession" style={{}}>
-            <i className="bx bxl-adobe" />
+          <div className="profession" style={{ "--i": 2 }}>
+            <i className="bx bxl-adobe"></i>
             <h3>Web Designer</h3>
           </div>
-          <div className="profession" style={{ zIndex: 3 }}>
-            <i className="bx bxs-file-json" />
+          <div className="profession" style={{ "--i": 3 }}>
+            <i className="bx bxs-file-json"></i>
             <h3>MERN Stack</h3>
           </div>
+
           <div className="circle" />
         </div>
         <div className="overlay" />

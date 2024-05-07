@@ -14,7 +14,7 @@ const About = () => {
           fontSize: "1.7rem",
         }}
       >
-        <div style={{ marginTop: "2rem" }}>
+        <div style={{ marginTop: "2rem" }} data-aos="zoom-out-down">
           <div style={{ position: "relative" }}>
             <img
               src={me}
@@ -273,7 +273,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div data-aos="zoom-out-up">
           <div>
             <h1 className="heading" style={{ textAlign: "center" }}>
               About <span>Me</span>

@@ -13,7 +13,7 @@ import Testimonial from "../testimonial/Testimonial";
 const Experience = () => {
   return (
     <div>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }} data-aos='fade-down-right'>
         <h1
           style={{ color: "#754ef9", fontSize: "4rem", marginBottom: "1rem" }}
         >

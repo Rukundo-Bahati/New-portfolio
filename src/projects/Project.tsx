@@ -1,10 +1,10 @@
 const Project = () => {
   return (
-    <section className="portfolio" id="portfolio">
+    <section className="portfolio" id="portfolio" data-aos="fade-left">
       <h2 className="heading" style={{ textAlign: "center", fontSize: "3rem" }}>
         Latest <span>Projects</span>
       </h2>
-      <div className="portfolio-container">
+      <div className="portfolio-container" data-aos="fade-up">
         <div className="portfolio-box">
           <img src="https://picsum.photos/seed/picsum/536/354" alt="" />
           <div className="portfolio-layer">
