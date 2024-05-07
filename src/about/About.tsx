@@ -1,4 +1,4 @@
-import me from "../assets/home-image.png";
+import me from '../assets/home-image.png';
 
 const About = () => {
   return (
@@ -9,12 +9,14 @@ const About = () => {
         className="about"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
+          gridTemplateColumns: "repeat(1, 1fr)",
           gap: "0",
           fontSize: "1.7rem",
         }}
       >
-        <div style={{ marginTop: "2rem" }} data-aos="zoom-out-down">
+     
+        <div style={{ marginTop: "4rem", marginBottom: '4rem' }}
+       data-aos="zoom-out-down">
           <div style={{ position: "relative" }}>
             <img
               src={me}
@@ -128,7 +130,7 @@ const About = () => {
                       color: "#333",
                     }}
                   >
-                    CSS
+                    TAILWIND CSS
                   </span>
                   <div
                     className="skill-bar"
@@ -177,7 +179,7 @@ const About = () => {
                       color: "#333",
                     }}
                   >
-                    React Js
+                    REACT JS
                   </span>
                   <div
                     className="skill-bar"
@@ -226,7 +228,7 @@ const About = () => {
                       color: "#333",
                     }}
                   >
-                    Node Js
+                    NODE JS
                   </span>
                   <div
                     className="skill-bar"
@@ -267,8 +269,7 @@ const About = () => {
                     </span>
                   </div>
                 </div>
-
-                {/* Other skill sections with tooltips */}
+         
               </div>
             </div>
           </div>

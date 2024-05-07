@@ -2,7 +2,7 @@ import baba from "../assets/bahati.png";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{width: '100%'}}>
       <section id="home" className="home">
         <div className="home-content" data-aos= 'flip-up'>
           <h3>Hello, It's Me</h3>

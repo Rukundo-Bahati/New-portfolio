@@ -60,7 +60,7 @@ const Nav = () => {
   }, [isDarkMode]);
 
   return (
-    <div>
+    <div style={{width: '100%'}}>
       {/* header design */}
       <header className={`header  ${isSticky ? "sticky" : ""}`}>
         <a href="#" className="logo">
